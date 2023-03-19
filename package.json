@@ -2,18 +2,22 @@
   "name": "logo-qr",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "browser": "bin/index.cjs",
   "scripts": {
     "build": "node build.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "jasongh17",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.14.4",
     "esbuild": "^0.17.11"
   },
   "dependencies": {
     "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   }
 }
