@@ -1,0 +1,19 @@
+{
+  "name": "logo-qr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.4",
+    "esbuild": "^0.17.11"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
