@@ -1,7 +1,7 @@
 const esbuild = require('esbuild');
 
 esbuild.build({
-	entryPoints: ['src/index.ts'],
+	entryPoints: ['src/index.tsx'],
 	format: 'esm',
 	target: ['esnext', 'node12.22.0'],
 	bundle: true,
@@ -11,7 +11,7 @@ esbuild.build({
 });
 
 esbuild.build({
-	entryPoints: ['src/index.ts'],
+	entryPoints: ['src/index.tsx'],
 	format: 'cjs',
 	target: ['esnext', 'node12.22.0'],
 	bundle: true,
@@ -21,7 +21,7 @@ esbuild.build({
 });
 
 esbuild.build({
-	entryPoints: ['examples/example1.ts'],
+	entryPoints: ['examples/example1.tsx'],
 	platform: 'browser',
 	bundle: true,
 	minify: true,

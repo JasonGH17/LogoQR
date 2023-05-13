@@ -220,3 +220,4 @@ class LogoQR {
 }
 
 export default LogoQR;
+export type { ECLevel };
